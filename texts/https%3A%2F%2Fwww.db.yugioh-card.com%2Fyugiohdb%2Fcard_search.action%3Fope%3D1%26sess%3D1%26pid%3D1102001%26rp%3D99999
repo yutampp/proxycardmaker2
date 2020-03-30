@@ -1,0 +1,3923 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+	
+
+	
+	<meta http-equiv="x-ua-compatible" content="IE=10" >
+	<meta http-equiv="x-ua-compatible" content="IE=EmulateIE10" >
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="ja">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="imagetoolbar" content="no">
+
+	<meta property="og:site_name" content="遊戯王OCGカードデータベース">
+
+	<meta property="og:image" content="http://www.db.yugioh-card.com/sns/logo_ocg_f.png" />
+	<meta property="og:type" content="product" />
+	<meta property="og:locale" content="ja_JP" />
+
+	<meta name="twitter:card" content="summary"/>
+
+	<meta name="twitter:image" content="http://www.db.yugioh-card.com/sns/logo_ocg_t.png" />
+	<script type="text/javascript" src="/yugiohdb/ga.js"></script>
+	<meta name="copyright" content="KONAMI">
+	<link rel="shortcut icon" href="external/image/yugioh.ico">
+	<link rel="apple-touch-icon" href="external/image/apple-touch-icon.png">
+
+	
+
+
+	
+
+
+	
+
+
+	
+	
+	
+	<meta name="keywords" content=" Vol.4 | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース 遊戯王,デッキ,デュエルモンスターズ,VRAINS,ヴレインズ,禁止,制限,パック,禁止カード,カード,カードリスト,ルール,OCG,コナミ,KONAMI" />
+	<meta name="description" content="遊戯王OCG「Vol.4」のカード一覧です。遊戯王OCGカードデータベースは、遊戯王 オフィシャルカードゲーム デュエルモンスターズのコナミ公式サイトです。" />
+
+	<meta property="og:title" content=" Vol.4 | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース" />
+	<meta property="og:url" content="http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja"/>
+
+	<meta property="og:description" content="遊戯王OCG「Vol.4」のカード一覧です。遊戯王OCGカードデータベースは、遊戯王 オフィシャルカードゲーム デュエルモンスターズのコナミ公式サイトです。" />
+
+	<meta name="twitter:title" content=" Vol.4 | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース" />
+	<meta name="twitter:description" content=" 遊戯王OCG「Vol.4」のカード一覧です。遊戯王OCGカードデータベースは、遊戯王 オフィシャルカードゲーム デュエルモンスターズのコナミ公式サイトです。" />
+
+	<meta name="twitter:url" content="http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja" />
+
+
+
+
+	
+
+<title>Vol.4 | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース</title>
+
+
+
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="external/html5/js/html5shiv.js"></script>
+<![endif]-->
+	<script type="text/javascript" src="external/jquery/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="external/jquery/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
+ 	<script type="text/javascript" src="external/jquery/jquery.dropkick/js/jquery.dropkick-1.0.0.js"></script>
+	<script type="text/javascript" src="external/js/common.js"></script>
+
+	<script type="text/javascript" src="external/jquery/scrolltopcontrol.js"></script>
+
+
+
+
+
+	<link type="text/css" rel="stylesheet" href="external/jquery/jquery-ui-1.8.16.custom/css/ui-lightness/jquery-ui-1.8.16.custom.css">
+	<link type="text/css" rel="stylesheet" href="external/jquery/jquery.dropkick/css/dropkick.css">
+	<link type="text/css" rel="stylesheet" href="external/css/common.css?20171030">
+
+	<link rel="stylesheet" type="text/css" href="external/css/CardResultNormal.css">
+
+	<script type="text/javascript">
+	<!--
+
+	$(function() {
+		
+
+		$('#sort').val('1');
+		$('#rp').val('99999');
+		$('#mode').val('');
+
+		$('#sort').dropkick({
+			theme: 'sort_ja',
+			change: function (value, label) {
+				
+				location.href = '/yugiohdb/card_search.action'
+					+ '?ope=1'
+					+ '&sess=2'
+					
+					+ '&pid=1102001'
+					
+					+ '&sort=' + encodeURIComponent($('#sort').val())
+					+ '&page=1'
+					+ '&stype=1&othercon=2&rp=99999';
+			}
+		});
+
+		$('#mode').dropkick({
+			theme: 'mode_ja',
+			change: function (value, label) {
+				
+				location.href = '/yugiohdb/card_search.action'
+							+ '?ope=1'
+							+ '&sess=4'
+							
+							+ '&pid=1102001'
+							
+							+ '&mode=' + value
+							+ '&stype=1&othercon=2&rp=99999&page=1';
+			}
+		});
+
+		
+
+	
+		$('#card_image_0_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4013&ciid=1&enc=RArIXZK9WElklps7Hzox3A').show();
+	
+
+	
+		$('#card_image_1_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4023&ciid=1&enc=lgS1HTwr9gxSa0YUIMjaPQ').show();
+	
+
+	
+		$('#card_image_2_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4028&ciid=1&enc=U-ZIzBd1dpP49tXrj-Vdag').show();
+	
+
+	
+		$('#card_image_3_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4034&ciid=1&enc=OfwrWPf76Aeo6f0E6Gv3dg').show();
+	
+
+	
+		$('#card_image_4_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4057&ciid=1&enc=EztgA4WI00L1nZDLTjWtww').show();
+	
+
+	
+		$('#card_image_5_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4068&ciid=1&enc=Li08YVmJ9Ep7zNO345FUFw').show();
+	
+
+	
+		$('#card_image_6_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4069&ciid=1&enc=z1UHG47Zn5y7X8Btebf1Fg').show();
+	
+
+	
+		$('#card_image_7_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4072&ciid=1&enc=B8PDk-IZGqip8zSs1k56fg').show();
+	
+
+	
+		$('#card_image_8_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4078&ciid=1&enc=L13fmIgTmo3oZJCI0miBqA').show();
+	
+
+	
+		$('#card_image_9_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4100&ciid=1&enc=ASFleemcBFMs44iAiBJmjQ').show();
+	
+
+	
+		$('#card_image_10_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4108&ciid=1&enc=0g17WzWznZcZAYDM0dZZrA').show();
+	
+
+	
+		$('#card_image_11_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4117&ciid=1&enc=L1uJTgOrxasJOS-baRCrjw').show();
+	
+
+	
+		$('#card_image_12_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4159&ciid=1&enc=v6Tpb0a2G6Sy6vCGdPKXFg').show();
+	
+
+	
+		$('#card_image_13_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4247&ciid=1&enc=323ZXSqd5lBYv3yg4rhPvA').show();
+	
+
+	
+		$('#card_image_14_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4255&ciid=1&enc=jdU-pzKWimMBKlSztLm3Xg').show();
+	
+
+	
+		$('#card_image_15_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4258&ciid=1&enc=gNFQIO_A2SVWO7bk9vlTHg').show();
+	
+
+	
+		$('#card_image_16_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4281&ciid=1&enc=gr2SVPvd06ICT_WCloHE8w').show();
+	
+
+	
+		$('#card_image_17_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4284&ciid=1&enc=iqGAMiK0gWKbTOy88h7zxg').show();
+	
+
+	
+		$('#card_image_18_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4290&ciid=1&enc=RdW9KHMEeeMRxV-wYbBhbA').show();
+	
+
+	
+		$('#card_image_19_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4293&ciid=1&enc=eRtqVmNHlSchFAKKIv9XGQ').show();
+	
+
+	
+		$('#card_image_20_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4324&ciid=1&enc=7UdPLeBlZrbB0Ww75dmY7w').show();
+	
+
+	
+		$('#card_image_21_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4400&ciid=1&enc=GwW9jIgTr7-evCCWJMs3zA').show();
+	
+
+	
+		$('#card_image_22_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4402&ciid=1&enc=gd-7f4vLT1aZEgRw1fGxzg').show();
+	
+
+	
+		$('#card_image_23_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4434&ciid=1&enc=sFzebmQXCdxDWIHvtfKXHg').show();
+	
+
+	
+		$('#card_image_24_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4439&ciid=1&enc=V3uNioAjFXvZZpmgqy45aQ').show();
+	
+
+	
+		$('#card_image_25_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4441&ciid=1&enc=X9jBp2iIPD_ojTb-ZZ_ruQ').show();
+	
+
+	
+		$('#card_image_26_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4443&ciid=1&enc=Ar9bFloaVfogEebVshymoQ').show();
+	
+
+	
+		$('#card_image_27_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4445&ciid=1&enc=Hk1zF8UBGItQlq-a80vtAA').show();
+	
+
+	
+		$('#card_image_28_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4460&ciid=1&enc=OdrQFTKA_YB8K-bqaiULMA').show();
+	
+
+	
+		$('#card_image_29_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4464&ciid=1&enc=qq5Aq4OmIsUQYRjm7fXg7g').show();
+	
+
+	
+		$('#card_image_30_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4488&ciid=1&enc=WxQdSrEMIKuMdL_GfxDOCQ').show();
+	
+
+	
+		$('#card_image_31_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4495&ciid=1&enc=p-gipXUAvjAlHJwJhAgkoA').show();
+	
+
+	
+		$('#card_image_32_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4504&ciid=1&enc=Yt_oMTa_TcbFlpdQzHcEFw').show();
+	
+
+	
+		$('#card_image_33_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4505&ciid=1&enc=YX0WVVh12GcU82oyJ6bIhA').show();
+	
+
+	
+		$('#card_image_34_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4508&ciid=1&enc=nm83ssbPOaJLJk3Vne_t_Q').show();
+	
+
+	
+		$('#card_image_35_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4543&ciid=1&enc=U50ZgMO-LQY50MS8WTK5Eg').show();
+	
+
+	
+		$('#card_image_36_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4549&ciid=1&enc=8tgPnXMnWEpK4oUnjYhphw').show();
+	
+
+	
+		$('#card_image_37_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4576&ciid=1&enc=hezTU5mpNW-Uh3PGLRT8nA').show();
+	
+
+	
+		$('#card_image_38_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4601&ciid=1&enc=2AllR4EvyhBY4k6P28rsOw').show();
+	
+
+	
+		$('#card_image_39_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4613&ciid=1&enc=BdH4rQ7oNJ69ulKHY4IRUg').show();
+	
+
+	
+		$('#card_image_40_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4616&ciid=1&enc=KBG6zYxo8XqKo64zLBiS4g').show();
+	
+
+	
+		$('#card_image_41_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4620&ciid=1&enc=8fBe_eybFSQ4NaX7_Vv8zg').show();
+	
+
+	
+		$('#card_image_42_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4636&ciid=1&enc=VEKZJHbh5oszvyLW1Wv9_A').show();
+	
+
+	
+		$('#card_image_43_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4643&ciid=1&enc=-HVbgRQyl5kjfPbYmXh8pQ').show();
+	
+
+	
+		$('#card_image_44_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4650&ciid=1&enc=Xq0PfGIH8txSOx3mK_e_tw').show();
+	
+
+	
+		$('#card_image_45_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4659&ciid=1&enc=i0Gcgo_8VobA1L2VeYSvnw').show();
+	
+
+	
+		$('#card_image_46_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4666&ciid=1&enc=TOFCCaWfLGhDu9KnUMIBtA').show();
+	
+
+	
+		$('#card_image_47_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4668&ciid=1&enc=llJM-RciG5V-n1-bYIgmpA').show();
+	
+
+	
+		$('#card_image_48_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4669&ciid=1&enc=AxzGTxPkaxkX-zpVv4zHrw').show();
+	
+
+	
+		$('#card_image_49_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4670&ciid=1&enc=coWiSMFPMJgMCr6RgBDNqg').show();
+	
+
+
+		
+		$('.list_style ul li').click(function() {
+			window.open($('.link_value', this).val());
+			return false
+		});
+
+
+
+		
+		
+	});
+
+	
+	function ChangePage(page) {
+		location.href = '/yugiohdb/card_search.action'
+					+ '?ope=1'
+					+ '&sess=3'
+					+ '&page=' + page
+					+ '&stype=1&othercon=2&rp=99999';
+	}
+	
+	$('.box_card_linkmarker').load(function(){
+/* 		if ($(this).hasClass('radio_off_left')) {
+			$(this).addClass('radio_on_left').removeClass('radio_off_left');
+			$(':radio', this).prop('checked', true);
+			$($(this).next()).addClass('radio_off_right').removeClass('radio_on_right');
+			$(':radio', $(this).next()).prop('checked', false);
+			$('img', this).attr('src', 'external/image/parts/check_on.png');
+			$('.othercon_right img').attr('src', 'external/image/parts/check_off.png');
+		} */
+	 });
+	//-->
+	</script>
+</head>
+
+
+
+	
+
+<body>
+
+<div id="wrapper">
+	<header>
+		<div class="h1_set">遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース</div>
+		<div id="header_meta">
+			<a href="https://www.konami.com/games/jp/ja/" target="_blank"><img src="external/image/logo_konami.png" alt="KONAMI" id="konami" class="ui-draggable"></a>
+
+
+	
+			<nav id="language">
+				<span>
+		日本語
+		
+		
+		
+		
+		
+		
+		
+				</span>
+				<ul>
+					<li><a href="javascript:ChangeLanguage('ja')" class="current">日本語</a></li>
+					<li><a href="javascript:ChangeLanguage('en')" >English</a></li>
+					<li><a href="javascript:ChangeLanguage('de')" >Deutsch</a></li>
+					<li><a href="javascript:ChangeLanguage('fr')" >Fran&ccedil;ais</a></li>
+					<li><a href="javascript:ChangeLanguage('it')" >Italiano</a></li>
+					<li><a href="javascript:ChangeLanguage('es')" >Espa&ntilde;ol</a></li>
+					<li><a href="javascript:ChangeLanguage('pt')" >Portugues</a></li>
+					<li><a href="javascript:ChangeLanguage('ko')" >한글</a></li>
+				</ul>
+			</nav>
+	
+
+		</div><!--#header_meta-->
+		<div id="header_menu">
+			<div id="main_logo">
+				<a href="/yugiohdb/"><img src="external/image/ja/logo_ocg.png" alt="遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース" title="TOP"></a>
+			</div>
+			<nav>
+				<div id="menber_menu">
+				
+				</div><!--#menber_menu-->
+				<ul id="main_menu">
+					<li><a href="/yugiohdb/card_search.action"><img src="external/image/ja/menu_btn_home.png" alt="カード検索"></a></li>
+					<li><a href="/yugiohdb/card_list.action"><img src="external/image/ja/menu_btn_cardlist.png" alt="カードリスト"></a></li>
+					<li><a href="/yugiohdb/forbidden_limited.action"><img src="external/image/ja/menu_btn_limitr.png" alt="リミットレギュレーション"></a></li>
+					<li><a href="/yugiohdb/faq_search.action"><img src="external/image/ja/menu_btn_q_a.png" alt="Ｑ＆Ａ"></a></li>
+					<li><a href="/yugiohdb/deck_search.action"><img src="external/image/ja/menu_btn_decks.png" alt="デッキ検索"></a></li>
+	
+					<li class="last"><a href="/yugiohdb/member_login.action"><img src="external/image/ja/menu_btn_login.png" alt="ログイン"></a></li>
+	
+	
+				</ul><!--#main_menu-->
+			</nav>
+		</div><!-- #header_menu-->
+	</header>
+
+
+	<nav id="pan_nav">
+		<ul>
+			<li><a href="/yugiohdb/">ホーム</a></li><!--
+		 --><li>&raquo;</li><!--
+
+		 --><li><a href="/yugiohdb/card_list.action">カードリスト</a></li><!--
+		 --><li>&raquo;</li><!--
+		 --><li class="oneline">Vol.4</li>
+
+
+		</ul>
+	</nav><!--#pan_nav-->
+
+	<input type="hidden" id="keyword_bef" value="">
+	
+
+	 
+		<nav id="title_msg">
+			遊戯王OCG「Vol.4」のカード一覧です。<br>カードを選択するとより詳細な遊戯王OCG公式ルールを確認する事ができます。
+		</nav>
+	
+	<article>
+
+		<header id="broad_title">
+			<div>
+				<h1><strong><ruby><rb>Vol.</rb><rt>ボリューム</rt></ruby>4</strong></h1>
+
+
+				<p id="previewed">
+					(
+		
+			
+			
+						公開日 :
+			
+						1999年07月22日
+			
+	
+	
+
+					)
+				</p>
+
+			</div>
+		</header>
+
+
+		<div id="article_body">
+
+
+
+			<table style="margin:0 auto;width:100%;border-spacing: 0px;">
+				<tr>
+				<td valign="top" style="padding: 0px;">
+
+
+						<span class="f_right" style="margin-left:10px;">
+						<select id="mode" name="mode" style="width:110px;">
+							<option value="1">画像表示</option>
+							<option value="2">テキスト表示</option>
+						</select>
+					</span>
+
+	
+					<input type="hidden" id="rp" value="99999">
+
+					<span class="f_right">
+						<select id="sort" name="sort" style="width:260px;">
+							<option value="1">カードナンバー順</option>
+							<option value="2">50音順</option>
+							<option value="3">レベル／ランク順（大きい順）</option>
+							<option value="4">レベル／ランク順（小さい順）</option>
+							<option value="5">攻撃力順（大きい順）</option>
+							<option value="6">攻撃力順（小さい順）</option>
+							<option value="7">守備力順（大きい順）</option>
+							<option value="8">守備力順（小さい順）</option>
+							<option value="9">ペンデュラムスケール順（大きい順）</option>
+							<option value="10">ペンデュラムスケール順（小さい順）</option>
+							<option value="11">リンク数（多い順）</option>
+							<option value="12">リンク数（少ない順）</option>
+						</select>
+					</span>
+	
+	
+
+					<div class="page_num_title">
+						<div>
+							<strong>
+	
+		
+								全50枚
+		
+	
+	
+							</strong>
+						</div>
+					</div>
+					<br class="f_del">
+
+
+
+
+
+<!--シェア追加-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<!--シェア追加-->
+<table style="margin-top:5px;width:100%;text-align: center;">
+	<tr>
+		<td style="width:560px;">&nbsp;</td>
+		<td>
+			
+			<iframe src="//platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja&amp;lang=ja&amp;count=horizontal&amp;hashtags=YugiohDB_JP" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe>
+		</td>
+		<td>
+			
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja&amp;send=false&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;locale=ja_JP" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe>
+		</td>
+		<td style="display: block;margin:0 10px 0 0;">
+			
+			<div class="fb-share-button" data-href="http://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=1&sess=1&stype=1&othercon=2&rp=99999&page=1&request_locale=ja" data-layout="button_count" data-size="small" ></div>
+		</td>
+		<td>
+			<div class="line-it-button" style="display: none;" data-lang="ja" data-type="share-a" data-url="http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja"></div>
+			<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+		</td>
+	</tr>
+</table>
+
+					<div class="list_style">
+						<ul class="box_list">
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>とりでをまもるよくりゅう</span>
+										<span class="card_status">
+										<strong>砦を守る翼竜</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											ドラゴン族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1400</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										山の砦を守る竜。天空から急降下して敵を攻撃。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_0_1" alt="砦を守る翼竜" title="砦を守る翼竜" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4013">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ふういんされしもののみぎあし</span>
+										<span class="card_status">
+										<strong>封印されし者の右足</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_ur.png" class="icon_info rid_4 rarity_lang_ja" alt="ウルトラレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+											<span class="f_right">
+												<img src="external/image/parts/forbidden_limited/icon_limited.png" alt="制限" class="icon_info fl_2">
+											</span>
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 1</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魔法使い族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 200</span>
+										
+										
+											<span class="def_power">守備力 300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										封印された右足。封印を解くと、無限の力を得られる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_1_1" alt="封印されし者の右足" title="封印されし者の右足" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4023">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>デーモンのしょうかん</span>
+										<span class="card_status">
+										<strong>デーモンの召喚</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_ur.png" class="icon_info rid_4 rarity_lang_ja" alt="ウルトラレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 6</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											悪魔族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 2500</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										闇の力を使い、人の心を惑わすデーモン。悪魔族ではかなり強力な力を誇る。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_2_1" alt="デーモンの召喚" title="デーモンの召喚" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4028">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>がんくつまじんオーガ・ロック</span>
+										<span class="card_status">
+										<strong>岩窟魔人オーガ・ロック</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											岩石族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 800</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										体が岩のため守備は高い。太い腕のひと振りに注意。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_3_1" alt="岩窟魔人オーガ・ロック" title="岩窟魔人オーガ・ロック" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4034">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>アーマー・リザード</span>
+										<span class="card_status">
+										<strong>鎧蜥蜴</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											爬虫類族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1500</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										かたい体のトカゲ。大きな口で噛みつかれたら、ひとたまりもないぞ。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_4_1" alt="鎧蜥蜴" title="鎧蜥蜴" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4057">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ハーピィ・レディ</span>
+										<span class="card_status">
+										<strong>ハーピィ・レディ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											鳥獣族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1300</span>
+										
+										
+											<span class="def_power">守備力 1400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										人に羽のはえたけもの。美しく華麗に舞い、鋭く攻撃する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_5_1" alt="ハーピィ・レディ" title="ハーピィ・レディ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4068">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ハーピィ・レディさんしまい</span>
+										<span class="card_status">
+										<strong>ハーピィ・レディ三姉妹</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_se.png" class="icon_info rid_5 rarity_lang_ja" alt="シークレットレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 6</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											鳥獣族
+			
+											／
+											特殊召喚
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1950</span>
+										
+										
+											<span class="def_power">守備力 2100</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカードは通常召喚できない。「万華鏡－華麗なる分身－」の効果で特殊召喚できる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_6_1" alt="ハーピィ・レディ三姉妹" title="ハーピィ・レディ三姉妹" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4069">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>まもののかりうど</span>
+										<span class="card_status">
+										<strong>魔物の狩人</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1500</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										人を狩る凶悪な狩人。岩をも砕く強い力を持つ。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_7_1" alt="魔物の狩人" title="魔物の狩人" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4072">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>しんかのまゆ</span>
+										<span class="card_status">
+										<strong>進化の繭</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_sr.png" class="icon_info rid_3 rarity_lang_ja" alt="スーパーレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											昆虫族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 0</span>
+										
+										
+											<span class="def_power">守備力 2000</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカードは手札から装備カード扱いとしてフィールド上に表側表示で存在する「プチモス」に装備する事ができる。この効果によってこのカードを装備した「プチモス」の攻撃力・守備力は「進化の繭」の数値を適用する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_8_1" alt="進化の繭" title="進化の繭" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4078">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ちをはうドラゴン</span>
+										<span class="card_status">
+										<strong>地を這うドラゴン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											ドラゴン族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1600</span>
+										
+										
+											<span class="def_power">守備力 1400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										力が弱り、空を飛べなくなったドラゴン。しかしまだ攻撃は強い。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_9_1" alt="地を這うドラゴン" title="地を這うドラゴン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4100">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>やみのかめん</span>
+										<span class="card_status">
+										<strong>闇の仮面</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_sr.png" class="icon_info rid_3 rarity_lang_ja" alt="スーパーレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 2</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											悪魔族
+			
+											／
+											リバース
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 900</span>
+										
+										
+											<span class="def_power">守備力 400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										リバース：自分の墓地の罠カード１枚を選択して手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_10_1" alt="闇の仮面" title="闇の仮面" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4108">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>しのちんもくのてんし　ドマ</span>
+										<span class="card_status">
+										<strong>死の沈黙の天使 ドマ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											天使族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1600</span>
+										
+										
+											<span class="def_power">守備力 1400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										死を司る天使。こいつに睨まれたら、死から逃れられない。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_11_1" alt="死の沈黙の天使 ドマ" title="死の沈黙の天使 ドマ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4117">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>しにがみのドクロイゾ</span>
+										<span class="card_status">
+										<strong>死神のドクロイゾ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											アンデット族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 900</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										地獄の一撃で魂を奪おうとする死神。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_12_1" alt="死神のドクロイゾ" title="死神のドクロイゾ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4159">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>やみのあんさつしゃ</span>
+										<span class="card_status">
+										<strong>闇の暗殺者</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											アンデット族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1200</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										サイコソードと呼ばれる剣を持ち、魔界に君臨する暗殺者。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_13_1" alt="闇の暗殺者" title="闇の暗殺者" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4247">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>みずのおどりこ</span>
+										<span class="card_status">
+										<strong>水の踊り子</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_water.png" alt="水属性" title="水属性">
+											<span>水属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											水族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1400</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										かめから次々とあふれでる水を、竜に変えて攻撃してくる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_14_1" alt="水の踊り子" title="水の踊り子" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4255">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>キャッツ・フェアリー</span>
+										<span class="card_status">
+										<strong>キャッツ・フェアリー</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											獣族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1100</span>
+										
+										
+											<span class="def_power">守備力 900</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										ネコの妖精。愛らしい姿とはうらはらに、素早く敵をひっかく。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_15_1" alt="キャッツ・フェアリー" title="キャッツ・フェアリー" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4258">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>りくせんがた　バグロス</span>
+										<span class="card_status">
+										<strong>陸戦型 バグロス</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											機械族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1500</span>
+										
+										
+											<span class="def_power">守備力 1000</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										陸上戦闘ロボット。今はダメだが、海でも使えたらしい。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_16_1" alt="陸戦型 バグロス" title="陸戦型 バグロス" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4281">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>プチモス</span>
+										<span class="card_status">
+										<strong>プチモス</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 1</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											昆虫族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 300</span>
+										
+										
+											<span class="def_power">守備力 200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										成長したらどんなムシになるか分からない、小さな幼虫。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_17_1" alt="プチモス" title="プチモス" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4284">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>おんみょうし　タオ</span>
+										<span class="card_status">
+										<strong>陰陽師 タオ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魔法使い族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1200</span>
+										
+										
+											<span class="def_power">守備力 900</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										陰と陽の力を浸食させ、歪んだ力を生み出す魔導士。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_18_1" alt="陰陽師 タオ" title="陰陽師 タオ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4290">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>くろいかげのオーガ</span>
+										<span class="card_status">
+										<strong>黒い影の鬼王</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											獣戦士族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1200</span>
+										
+										
+											<span class="def_power">守備力 1400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										黒い影にとりつかれたオーガ。すごいスピードで突撃してくる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_19_1" alt="黒い影の鬼王" title="黒い影の鬼王" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4293">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>まんげきょう－かれいなるぶんしん－</span>
+										<span class="card_status">
+										<strong>万華鏡－華麗なる分身－</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_ur.png" class="icon_info rid_4 rarity_lang_ja" alt="ウルトラレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：フィールドに「ハーピィ・レディ」が存在する場合に発動できる。手札・デッキから「ハーピィ・レディ」または「ハーピィ・レディ三姉妹」１体を特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_20_1" alt="万華鏡－華麗なる分身－" title="万華鏡－華麗なる分身－" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4324">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>てつのサソリ</span>
+										<span class="card_status">
+										<strong>鉄のサソリ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 1</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											機械族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 250</span>
+										
+										
+											<span class="def_power">守備力 300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										機械族以外のモンスターがこのカードを攻撃した場合、そのモンスターは（相手ターンで数えて）３ターン目のエンドフェイズに破壊される。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_21_1" alt="鉄のサソリ" title="鉄のサソリ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4400">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エンゼル・イヤーズ</span>
+										<span class="card_status">
+										<strong>エンゼル・イヤーズ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											天使族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1550</span>
+										
+										
+											<span class="def_power">守備力 1650</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										大きな耳と目で周囲を監視する、恐ろしい風貌の天使。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_22_1" alt="エンゼル・イヤーズ" title="エンゼル・イヤーズ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4402">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>セイント・マジシャン</span>
+										<span class="card_status">
+										<strong>聖なる魔術師</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_sr.png" class="icon_info rid_3 rarity_lang_ja" alt="スーパーレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 1</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魔法使い族
+			
+											／
+											リバース
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 300</span>
+										
+										
+											<span class="def_power">守備力 400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードがリバースした場合、自分の墓地の魔法カード１枚を対象として発動する。そのカードを手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_23_1" alt="聖なる魔術師" title="聖なる魔術師" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4434">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エンシェント・エルフ</span>
+										<span class="card_status">
+										<strong>エンシェント・エルフ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魔法使い族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1450</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										何千年も生きているエルフ。精霊をあやつり攻撃をする。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_24_1" alt="エンシェント・エルフ" title="エンシェント・エルフ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4439">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ウォーター・ガール</span>
+										<span class="card_status">
+										<strong>ウォーター・ガール</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_water.png" alt="水属性" title="水属性">
+											<span>水属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											水族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1250</span>
+										
+										
+											<span class="def_power">守備力 1000</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										水を氷の矢のようにして攻撃してくるきれいなお姉さん。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_25_1" alt="ウォーター・ガール" title="ウォーター・ガール" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4441">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>しんかいにひそむサメ</span>
+										<span class="card_status">
+										<strong>深海に潜むサメ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_water.png" alt="水属性" title="水属性">
+											<span>水属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魚族
+			
+											／
+											融合
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1900</span>
+										
+										
+											<span class="def_power">守備力 1600</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										神魚＋舌魚
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_26_1" alt="深海に潜むサメ" title="深海に潜むサメ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4443">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>しんぎょ</span>
+										<span class="card_status">
+										<strong>神魚</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_water.png" alt="水属性" title="水属性">
+											<span>水属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魚族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1650</span>
+										
+										
+											<span class="def_power">守備力 1700</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										水中を優雅に泳ぐ魚の神様。怒らせると危険。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_27_1" alt="神魚" title="神魚" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4445">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>はかいのゴーレム</span>
+										<span class="card_status">
+										<strong>破壊のゴーレム</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											岩石族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1500</span>
+										
+										
+											<span class="def_power">守備力 1000</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										大きな右手が特徴のゴーレム。右手で押しつぶして攻撃する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_28_1" alt="破壊のゴーレム" title="破壊のゴーレム" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4460">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>らいじんのいかり</span>
+										<span class="card_status">
+										<strong>雷神の怒り</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											雷族
+			
+											／
+											融合
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1900</span>
+										
+										
+											<span class="def_power">守備力 1400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										「エンゼル・イヤーズ」＋「メガ・サンダーボール」
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_29_1" alt="雷神の怒り" title="雷神の怒り" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4464">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>プラグティカル</span>
+										<span class="card_status">
+										<strong>プラグティカル</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											恐竜族
+			
+											／
+											融合
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1900</span>
+										
+										
+											<span class="def_power">守備力 1500</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										トラコドン＋フレイム・ヴァイパー
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_30_1" alt="プラグティカル" title="プラグティカル" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4488">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>マグナム・リリィ</span>
+										<span class="card_status">
+										<strong>マグナム・リリィ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											植物族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1100</span>
+										
+										
+											<span class="def_power">守備力 600</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										いわゆるてっぽうユリ。花粉の弾を飛ばし相手を攻撃する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_31_1" alt="マグナム・リリィ" title="マグナム・リリィ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4495">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>モリンフェン</span>
+										<span class="card_status">
+										<strong>モリンフェン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											悪魔族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1550</span>
+										
+										
+											<span class="def_power">守備力 1300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										長い腕とかぎづめが特徴の奇妙な姿をした悪魔。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_32_1" alt="モリンフェン" title="モリンフェン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4504">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>キャタピラー</span>
+										<span class="card_status">
+										<strong>青虫</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 1</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											昆虫族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 250</span>
+										
+										
+											<span class="def_power">守備力 300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										糸をはき攻撃する。どんなムシに成長するか分からない。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_33_1" alt="青虫" title="青虫" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4505">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ドラゴヒューマン</span>
+										<span class="card_status">
+										<strong>ドラゴヒューマン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1300</span>
+										
+										
+											<span class="def_power">守備力 1100</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										ドラゴンのキバで作った剣を振るう、ドラゴンの力を持つ戦士。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_34_1" alt="ドラゴヒューマン" title="ドラゴヒューマン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4508">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>メガ・サンダーボール</span>
+										<span class="card_status">
+										<strong>メガ・サンダーボール</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 2</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											雷族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 750</span>
+										
+										
+											<span class="def_power">守備力 600</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										地面を転がり回り、周囲に電撃を放つボール。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_35_1" alt="メガ・サンダーボール" title="メガ・サンダーボール" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4543">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>たんぎょ</span>
+										<span class="card_status">
+										<strong>舌魚</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_water.png" alt="水属性" title="水属性">
+											<span>水属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魚族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1350</span>
+										
+										
+											<span class="def_power">守備力 800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										他の魚を長い舌で捕まえ、エネルギーを吸収する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_36_1" alt="舌魚" title="舌魚" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4549">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>トラコドン</span>
+										<span class="card_status">
+										<strong>トラコドン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											恐竜族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1300</span>
+										
+										
+											<span class="def_power">守備力 800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										トラ柄の恐竜。荒野を駆け抜けるスピードはかなり速い。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_37_1" alt="トラコドン" title="トラコドン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4576">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>アブソリューター</span>
+										<span class="card_status">
+										<strong>アブソリューター</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											鳥獣族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1300</span>
+										
+										
+											<span class="def_power">守備力 1400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										相手を鏡の中の世界に吸い込むことができる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_38_1" alt="アブソリューター" title="アブソリューター" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4601">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>グレード・ビル</span>
+										<span class="card_status">
+										<strong>グレード・ビル</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											獣族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1250</span>
+										
+										
+											<span class="def_power">守備力 1300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										どんなものでも丸飲みできる大きな口を持っている。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_39_1" alt="グレード・ビル" title="グレード・ビル" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4613">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>でんきトカゲ</span>
+										<span class="card_status">
+										<strong>でんきトカゲ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											雷族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 850</span>
+										
+										
+											<span class="def_power">守備力 800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										アンデット族以外のモンスターがこのカードを攻撃した場合、そのモンスターは次のターン攻撃宣言をする事ができない。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_40_1" alt="でんきトカゲ" title="でんきトカゲ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4616">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ハンター・スパイダー</span>
+										<span class="card_status">
+										<strong>ハンター・スパイダー</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											昆虫族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1600</span>
+										
+										
+											<span class="def_power">守備力 1400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										クモの巣の罠を仕掛け狩りをする。罠にかかったものは食べてしまう。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_41_1" alt="ハンター・スパイダー" title="ハンター・スパイダー" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4620">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>こだいのトカゲせんし</span>
+										<span class="card_status">
+										<strong>古代のトカゲ戦士</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											爬虫類族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1400</span>
+										
+										
+											<span class="def_power">守備力 1100</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										太古の、昔の姿そのままのトカゲの戦士。意外に強いぞ。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_42_1" alt="古代のトカゲ戦士" title="古代のトカゲ戦士" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4636">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>トレント</span>
+										<span class="card_status">
+										<strong>トレント</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											植物族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1500</span>
+										
+										
+											<span class="def_power">守備力 1800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										まだまだ成長し続けている森の大木。森の守り神。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_43_1" alt="トレント" title="トレント" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4643">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>フレイム・ヴァイパー</span>
+										<span class="card_status">
+										<strong>フレイム・ヴァイパー</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 2</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											炎族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 400</span>
+										
+										
+											<span class="def_power">守備力 450</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										シュルシュルと素早く動き、口から火炎をはくマムシ。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_44_1" alt="フレイム・ヴァイパー" title="フレイム・ヴァイパー" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4650">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>せんしまっさつ</span>
+										<span class="card_status">
+										<strong>戦士抹殺</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_r.png" class="icon_info rid_2 rarity_lang_ja" alt="レア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										フィールド上に表側表示で存在する戦士族モンスターを全て破壊する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_45_1" alt="戦士抹殺" title="戦士抹殺" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4659">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>さんのあらし</span>
+										<span class="card_status">
+										<strong>酸の嵐</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_r.png" class="icon_info rid_2 rarity_lang_ja" alt="レア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										フィールド上に表側表示で存在する機械族モンスターを全て破壊する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_46_1" alt="酸の嵐" title="酸の嵐" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4666">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>トゲトゲしんのさっちゅうざい</span>
+										<span class="card_status">
+										<strong>トゲトゲ神の殺虫剤</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_r.png" class="icon_info rid_2 rarity_lang_ja" alt="レア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										フィールド上の昆虫族モンスターは、すべて破壊される。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_47_1" alt="トゲトゲ神の殺虫剤" title="トゲトゲ神の殺虫剤" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4668">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>かみのいぶき</span>
+										<span class="card_status">
+										<strong>神の息吹</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_r.png" class="icon_info rid_2 rarity_lang_ja" alt="レア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										フィールド上に表側表示で存在する岩石族モンスターを全て破壊する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_48_1" alt="神の息吹" title="神の息吹" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4669">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>えいえんのかっすい</span>
+										<span class="card_status">
+										<strong>永遠の渇水</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_r.png" class="icon_info rid_2 rarity_lang_ja" alt="レア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										フィールド上の魚族モンスターは、すべて破壊される。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_49_1" alt="永遠の渇水" title="永遠の渇水" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4670">
+							</li>
+	
+						</ul><!--.box_list-->
+					</div><!--.list_style-->
+
+
+				</td>
+				</tr>
+			</table>
+
+		</div><!--#article_body-->
+	</article>
+
+<input type="hidden" name="sv" value="ycdb-prdap02.gs-ec2">
+
+
+
+
+
+
+	<div id="cdb_link_set"><a class="link_ocg" href="//www.yugioh-card.com/japan/" target="_blank">遊戯王公式サイト</a>  <a class="link_cgn" href="//cardgame-network.konami.net/" target="_blank">KONAMI CARD GAME NETWORK</a>  <a class="link_kst" href="http://www.konamistyle.jp/" target="_blank">コナミスタイル</a>  <a class="link_kfs" href="https://www.konami.com/games/card/friendly_shop/" target="_blank">コナミ フレンドリーショップ</a></div>
+
+	<footer id="footer">
+		<div id="content_copyright">&copy;高橋和希 スタジオ・ダイス/集英社 企画・制作/KONAMI</div>
+		<div id="footer_meta">
+			<nav>
+				<ul>
+					<li><a href="http://www.yugioh-card.com/japan/support/" target="_blank">お問い合わせ</a></li><!--
+				 --><li>|</li><!--
+				 --><li><a href="https://www.konami.com/siteinfo/ja/" target="_blank">サイトポリシー</a></li><!--
+				 --><li>|</li><!--
+				 --><li><a href="https://legal.konami.com/games/privacy/ja/" target="_blank">個人情報等保護方針</a></li><!--
+				 --><li>|</li><!--
+				 --><li></li>
+				</ul>
+			</nav>
+			<small>&copy;2020 Konami Digital Entertainment</small>
+		</div>
+	</footer>
+</div><!--wrapper-->
+<noscript>JavaScript を有効にしてください</noscript>
+
+</body>
+</html>
+

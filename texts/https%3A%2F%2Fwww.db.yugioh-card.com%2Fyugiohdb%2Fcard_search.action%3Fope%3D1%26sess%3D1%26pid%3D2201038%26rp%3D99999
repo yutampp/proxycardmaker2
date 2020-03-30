@@ -1,0 +1,3156 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+	
+
+	
+	<meta http-equiv="x-ua-compatible" content="IE=10" >
+	<meta http-equiv="x-ua-compatible" content="IE=EmulateIE10" >
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="ja">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="imagetoolbar" content="no">
+
+	<meta property="og:site_name" content="遊戯王OCGカードデータベース">
+
+	<meta property="og:image" content="http://www.db.yugioh-card.com/sns/logo_ocg_f.png" />
+	<meta property="og:type" content="product" />
+	<meta property="og:locale" content="ja_JP" />
+
+	<meta name="twitter:card" content="summary"/>
+
+	<meta name="twitter:image" content="http://www.db.yugioh-card.com/sns/logo_ocg_t.png" />
+	<script type="text/javascript" src="/yugiohdb/ga.js"></script>
+	<meta name="copyright" content="KONAMI">
+	<link rel="shortcut icon" href="external/image/yugioh.ico">
+	<link rel="apple-touch-icon" href="external/image/apple-touch-icon.png">
+
+	
+
+
+	
+
+
+	
+
+
+	
+	
+	
+	<meta name="keywords" content=" ストラクチャーデッキ － HERO&rsquo;s STRIKE － | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース 遊戯王,デッキ,デュエルモンスターズ,VRAINS,ヴレインズ,禁止,制限,パック,禁止カード,カード,カードリスト,ルール,OCG,コナミ,KONAMI" />
+	<meta name="description" content="遊戯王OCG「ストラクチャーデッキ － HERO&rsquo;s STRIKE －」のカード一覧です。遊戯王OCGカードデータベースは、遊戯王 オフィシャルカードゲーム デュエルモンスターズのコナミ公式サイトです。" />
+
+	<meta property="og:title" content=" ストラクチャーデッキ － HERO&rsquo;s STRIKE － | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース" />
+	<meta property="og:url" content="http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja"/>
+
+	<meta property="og:description" content="遊戯王OCG「ストラクチャーデッキ － HERO&rsquo;s STRIKE －」のカード一覧です。遊戯王OCGカードデータベースは、遊戯王 オフィシャルカードゲーム デュエルモンスターズのコナミ公式サイトです。" />
+
+	<meta name="twitter:title" content=" ストラクチャーデッキ － HERO&rsquo;s STRIKE － | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース" />
+	<meta name="twitter:description" content=" 遊戯王OCG「ストラクチャーデッキ － HERO&rsquo;s STRIKE －」のカード一覧です。遊戯王OCGカードデータベースは、遊戯王 オフィシャルカードゲーム デュエルモンスターズのコナミ公式サイトです。" />
+
+	<meta name="twitter:url" content="http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja" />
+
+
+
+
+	
+
+<title>ストラクチャーデッキ － HERO&rsquo;s STRIKE － | カード検索結果（画像表示） | 遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース</title>
+
+
+
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="external/html5/js/html5shiv.js"></script>
+<![endif]-->
+	<script type="text/javascript" src="external/jquery/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="external/jquery/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
+ 	<script type="text/javascript" src="external/jquery/jquery.dropkick/js/jquery.dropkick-1.0.0.js"></script>
+	<script type="text/javascript" src="external/js/common.js"></script>
+
+	<script type="text/javascript" src="external/jquery/scrolltopcontrol.js"></script>
+
+
+
+
+
+	<link type="text/css" rel="stylesheet" href="external/jquery/jquery-ui-1.8.16.custom/css/ui-lightness/jquery-ui-1.8.16.custom.css">
+	<link type="text/css" rel="stylesheet" href="external/jquery/jquery.dropkick/css/dropkick.css">
+	<link type="text/css" rel="stylesheet" href="external/css/common.css?20171030">
+
+	<link rel="stylesheet" type="text/css" href="external/css/CardResultNormal.css">
+
+	<script type="text/javascript">
+	<!--
+
+	$(function() {
+		
+
+		$('#sort').val('1');
+		$('#rp').val('99999');
+		$('#mode').val('');
+
+		$('#sort').dropkick({
+			theme: 'sort_ja',
+			change: function (value, label) {
+				
+				location.href = '/yugiohdb/card_search.action'
+					+ '?ope=1'
+					+ '&sess=2'
+					
+					+ '&pid=2201038'
+					
+					+ '&sort=' + encodeURIComponent($('#sort').val())
+					+ '&page=1'
+					+ '&stype=1&othercon=2&rp=99999';
+			}
+		});
+
+		$('#mode').dropkick({
+			theme: 'mode_ja',
+			change: function (value, label) {
+				
+				location.href = '/yugiohdb/card_search.action'
+							+ '?ope=1'
+							+ '&sess=4'
+							
+							+ '&pid=2201038'
+							
+							+ '&mode=' + value
+							+ '&stype=1&othercon=2&rp=99999&page=1';
+			}
+		});
+
+		
+
+	
+		$('#card_image_0_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=11308&ciid=1&enc=292PbpCceCWTwq52O_Z6vQ').show();
+	
+
+	
+		$('#card_image_1_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6784&ciid=1&enc=HueywJu2OxR6IiUJVUtM3w').show();
+	
+
+	
+		$('#card_image_2_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6733&ciid=1&enc=5IrvsJtS3uVr_D-oCistuQ').show();
+	
+
+	
+		$('#card_image_3_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6728&ciid=1&enc=Rzzk64Js8CTiiaWbdFG_eA').show();
+	
+
+	
+		$('#card_image_4_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=7058&ciid=1&enc=0ko2OOhS18ZBpBWHw0X8hQ').show();
+	
+
+	
+		$('#card_image_5_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6927&ciid=1&enc=wbgUr0ou1Npvm5RlidSZsQ').show();
+	
+
+	
+		$('#card_image_6_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6653&ciid=1&enc=GwG1HJwf_yxbnQCJrrwEEw').show();
+	
+
+	
+		$('#card_image_7_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=7195&ciid=1&enc=E1tgWse_ahhSpsPxCtEF2g').show();
+	
+
+	
+		$('#card_image_8_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6477&ciid=1&enc=OdbTOwZ6OquT16CI5kOF5A').show();
+	
+
+	
+		$('#card_image_9_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6527&ciid=1&enc=hAsyqkma8hoVWiyPtr_Y-Q').show();
+	
+
+	
+		$('#card_image_10_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6478&ciid=1&enc=tbWwbpaclljrfIIO_nKVCA').show();
+	
+
+	
+		$('#card_image_11_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6393&ciid=1&enc=L62Sy_SQTKHGuRuyexxsjg').show();
+	
+
+	
+		$('#card_image_12_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6770&ciid=1&enc=Day5OuZ1vWOKZQysWmXSdw').show();
+	
+
+	
+		$('#card_image_13_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=7574&ciid=1&enc=Jyg24Quux6KbapFeDCpGIg').show();
+	
+
+	
+		$('#card_image_14_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6939&ciid=1&enc=cXvTllTWJxuO_q5ROT1RBw').show();
+	
+
+	
+		$('#card_image_15_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6314&ciid=1&enc=yAheYagnpDSy08nLk36AAQ').show();
+	
+
+	
+		$('#card_image_16_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6400&ciid=1&enc=bv3X-6I7V5uJlgQX5mbQOA').show();
+	
+
+	
+		$('#card_image_17_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=9271&ciid=1&enc=XJnXhYaZVRpS06MoHTszNw').show();
+	
+
+	
+		$('#card_image_18_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=9068&ciid=1&enc=KkFpS5Tj4BpVd8GD_XIQew').show();
+	
+
+	
+		$('#card_image_19_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=11309&ciid=1&enc=F4qiEgsjG49fjFysZqBtMw').show();
+	
+
+	
+		$('#card_image_20_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=9066&ciid=1&enc=eskfCAJL2n2VGYTBmOBArA').show();
+	
+
+	
+		$('#card_image_21_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4837&ciid=1&enc=vjGEidSXsM2wAQCMbjtmUg').show();
+	
+
+	
+		$('#card_image_22_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6432&ciid=1&enc=1Dookl3nyvWCRUxcdRrpTQ').show();
+	
+
+	
+		$('#card_image_23_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=7942&ciid=1&enc=LJzLF6iG3fbvZ-D8ZwYq9Q').show();
+	
+
+	
+		$('#card_image_24_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=7187&ciid=1&enc=-lu4AQwzT-XWQEaG5HuTBg').show();
+	
+
+	
+		$('#card_image_25_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=7618&ciid=1&enc=iG_wnEkHtjvo-_WzhVaiWw').show();
+	
+
+	
+		$('#card_image_26_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6671&ciid=1&enc=sDHQII9Mp1DoMcWcsUAXCQ').show();
+	
+
+	
+		$('#card_image_27_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6672&ciid=1&enc=Ing7PssR5ZXBr1XCOL-Ayw').show();
+	
+
+	
+		$('#card_image_28_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6673&ciid=1&enc=o6_eVgSf346o5xlVY3NHCA').show();
+	
+
+	
+		$('#card_image_29_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6674&ciid=1&enc=OdDSG-pqXkkKQW-JdKsoXg').show();
+	
+
+	
+		$('#card_image_30_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=5328&ciid=1&enc=2wx0AAHjqUc2o6kIGiv7nw').show();
+	
+
+	
+		$('#card_image_31_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=5330&ciid=1&enc=R3-uoFcPCmAB2fetnbxyiQ').show();
+	
+
+	
+		$('#card_image_32_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=8993&ciid=1&enc=6x9x6_0pytBYkw9rR1pC6w').show();
+	
+
+	
+		$('#card_image_33_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=5236&ciid=1&enc=D7k-oXx5IDF5daQI3L4siQ').show();
+	
+
+	
+		$('#card_image_34_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=6356&ciid=1&enc=U-qFtw2XCnx_saNWqwRU2g').show();
+	
+
+	
+		$('#card_image_35_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=7637&ciid=1&enc=Y1qyTcAP3XRlGnkmhFQqsw').show();
+	
+
+	
+		$('#card_image_36_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=4989&ciid=1&enc=1Ilc0JwEaLc8ve7sDNPy3w').show();
+	
+
+	
+		$('#card_image_37_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=5400&ciid=1&enc=NVN3qgW76bEzORXNPMU7Ig').show();
+	
+
+	
+		$('#card_image_38_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=5914&ciid=1&enc=KXIN7gIpf-qauKs9iEtt2A').show();
+	
+
+	
+		$('#card_image_39_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=9008&ciid=1&enc=YoWuM7VNM10h5Zp4J74p_w').show();
+	
+
+	
+		$('#card_image_40_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=11310&ciid=1&enc=7x_uJ7aFBj3GcpfMhxpAKQ').show();
+	
+
+	
+		$('#card_image_41_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=11311&ciid=1&enc=vbOxEWUn5TkO2p4QN_nh_A').show();
+	
+
+	
+		$('#card_image_42_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=11312&ciid=1&enc=fIOQRqugr_2xE6ajLotQXQ').show();
+	
+
+	
+		$('#card_image_43_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=11313&ciid=1&enc=0mN6yMJ3PC5uSMsWhMbVZQ').show();
+	
+
+	
+		$('#card_image_44_1').attr('src', '/yugiohdb/get_image.action?type=1&cid=8122&ciid=1&enc=pVhIvua97GM8YKbnc3C6Zg').show();
+	
+
+
+		
+		$('.list_style ul li').click(function() {
+			window.open($('.link_value', this).val());
+			return false
+		});
+
+
+
+		
+		
+	});
+
+	
+	function ChangePage(page) {
+		location.href = '/yugiohdb/card_search.action'
+					+ '?ope=1'
+					+ '&sess=3'
+					+ '&page=' + page
+					+ '&stype=1&othercon=2&rp=99999';
+	}
+	
+	$('.box_card_linkmarker').load(function(){
+/* 		if ($(this).hasClass('radio_off_left')) {
+			$(this).addClass('radio_on_left').removeClass('radio_off_left');
+			$(':radio', this).prop('checked', true);
+			$($(this).next()).addClass('radio_off_right').removeClass('radio_on_right');
+			$(':radio', $(this).next()).prop('checked', false);
+			$('img', this).attr('src', 'external/image/parts/check_on.png');
+			$('.othercon_right img').attr('src', 'external/image/parts/check_off.png');
+		} */
+	 });
+	//-->
+	</script>
+</head>
+
+
+
+	
+
+<body>
+
+<div id="wrapper">
+	<header>
+		<div class="h1_set">遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース</div>
+		<div id="header_meta">
+			<a href="https://www.konami.com/games/jp/ja/" target="_blank"><img src="external/image/logo_konami.png" alt="KONAMI" id="konami" class="ui-draggable"></a>
+
+
+	
+			<nav id="language">
+				<span>
+		日本語
+		
+		
+		
+		
+		
+		
+		
+				</span>
+				<ul>
+					<li><a href="javascript:ChangeLanguage('ja')" class="current">日本語</a></li>
+					<li><a href="javascript:ChangeLanguage('en')" >English</a></li>
+					<li><a href="javascript:ChangeLanguage('de')" >Deutsch</a></li>
+					<li><a href="javascript:ChangeLanguage('fr')" >Fran&ccedil;ais</a></li>
+					<li><a href="javascript:ChangeLanguage('it')" >Italiano</a></li>
+					<li><a href="javascript:ChangeLanguage('es')" >Espa&ntilde;ol</a></li>
+					<li><a href="javascript:ChangeLanguage('pt')" >Portugues</a></li>
+					<li><a href="javascript:ChangeLanguage('ko')" >한글</a></li>
+				</ul>
+			</nav>
+	
+
+		</div><!--#header_meta-->
+		<div id="header_menu">
+			<div id="main_logo">
+				<a href="/yugiohdb/"><img src="external/image/ja/logo_ocg.png" alt="遊戯王 オフィシャルカードゲーム デュエルモンスターズ - カードデータベース" title="TOP"></a>
+			</div>
+			<nav>
+				<div id="menber_menu">
+				
+				</div><!--#menber_menu-->
+				<ul id="main_menu">
+					<li><a href="/yugiohdb/card_search.action"><img src="external/image/ja/menu_btn_home.png" alt="カード検索"></a></li>
+					<li><a href="/yugiohdb/card_list.action"><img src="external/image/ja/menu_btn_cardlist.png" alt="カードリスト"></a></li>
+					<li><a href="/yugiohdb/forbidden_limited.action"><img src="external/image/ja/menu_btn_limitr.png" alt="リミットレギュレーション"></a></li>
+					<li><a href="/yugiohdb/faq_search.action"><img src="external/image/ja/menu_btn_q_a.png" alt="Ｑ＆Ａ"></a></li>
+					<li><a href="/yugiohdb/deck_search.action"><img src="external/image/ja/menu_btn_decks.png" alt="デッキ検索"></a></li>
+	
+					<li class="last"><a href="/yugiohdb/member_login.action"><img src="external/image/ja/menu_btn_login.png" alt="ログイン"></a></li>
+	
+	
+				</ul><!--#main_menu-->
+			</nav>
+		</div><!-- #header_menu-->
+	</header>
+
+
+	<nav id="pan_nav">
+		<ul>
+			<li><a href="/yugiohdb/">ホーム</a></li><!--
+		 --><li>&raquo;</li><!--
+
+		 --><li><a href="/yugiohdb/card_list.action">カードリスト</a></li><!--
+		 --><li>&raquo;</li><!--
+		 --><li class="oneline">ストラクチャーデッキ － HERO&rsquo;s STRIKE －</li>
+
+
+		</ul>
+	</nav><!--#pan_nav-->
+
+	<input type="hidden" id="keyword_bef" value="">
+	
+
+	 
+		<nav id="title_msg">
+			遊戯王OCG「ストラクチャーデッキ － HERO’s STRIKE －」のカード一覧です。<br>カードを選択するとより詳細な遊戯王OCG公式ルールを確認する事ができます。
+		</nav>
+	
+	<article>
+
+		<header id="broad_title">
+			<div>
+				<h1><ruby><rb>STRUCTURE</rb><rt>ストラクチャー</rt></ruby> <ruby><rb>DECK</rb><rt>デッキ</rt></ruby><br><strong>－ <ruby><rb>HERO's</rb><rt>ヒーローズ</rt></ruby> <ruby><rb>STRIKE</rb><rt>ストライク</rt></ruby> －</strong></h1>
+
+
+				<p id="previewed">
+					(
+		
+			
+			
+						公開日 :
+			
+						2014年06月21日
+			
+	
+	
+
+					)
+				</p>
+
+			</div>
+		</header>
+
+
+		<div id="article_body">
+
+
+
+			<table style="margin:0 auto;width:100%;border-spacing: 0px;">
+				<tr>
+				<td valign="top" style="padding: 0px;">
+
+
+						<span class="f_right" style="margin-left:10px;">
+						<select id="mode" name="mode" style="width:110px;">
+							<option value="1">画像表示</option>
+							<option value="2">テキスト表示</option>
+						</select>
+					</span>
+
+	
+					<input type="hidden" id="rp" value="99999">
+
+					<span class="f_right">
+						<select id="sort" name="sort" style="width:260px;">
+							<option value="1">カードナンバー順</option>
+							<option value="2">50音順</option>
+							<option value="3">レベル／ランク順（大きい順）</option>
+							<option value="4">レベル／ランク順（小さい順）</option>
+							<option value="5">攻撃力順（大きい順）</option>
+							<option value="6">攻撃力順（小さい順）</option>
+							<option value="7">守備力順（大きい順）</option>
+							<option value="8">守備力順（小さい順）</option>
+							<option value="9">ペンデュラムスケール順（大きい順）</option>
+							<option value="10">ペンデュラムスケール順（小さい順）</option>
+							<option value="11">リンク数（多い順）</option>
+							<option value="12">リンク数（少ない順）</option>
+						</select>
+					</span>
+	
+	
+
+					<div class="page_num_title">
+						<div>
+							<strong>
+	
+		
+								全45枚
+		
+	
+	
+							</strong>
+						</div>
+					</div>
+					<br class="f_del">
+
+
+
+
+
+<!--シェア追加-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<!--シェア追加-->
+<table style="margin-top:5px;width:100%;text-align: center;">
+	<tr>
+		<td style="width:560px;">&nbsp;</td>
+		<td>
+			
+			<iframe src="//platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja&amp;lang=ja&amp;count=horizontal&amp;hashtags=YugiohDB_JP" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe>
+		</td>
+		<td>
+			
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja&amp;send=false&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;locale=ja_JP" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe>
+		</td>
+		<td style="display: block;margin:0 10px 0 0;">
+			
+			<div class="fb-share-button" data-href="http://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=1&sess=1&stype=1&othercon=2&rp=99999&page=1&request_locale=ja" data-layout="button_count" data-size="small" ></div>
+		</td>
+		<td>
+			<div class="line-it-button" style="display: none;" data-lang="ja" data-type="share-a" data-url="http%3A%2F%2Fwww.db.yugioh-card.com%2Fyugiohdb%2Fcard_search.action%3Fope%3D1%26sess%3D1%26stype%3D1%26othercon%3D2%26rp%3D99999%26page%3D1%26request_locale%3Dja"></div>
+			<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+		</td>
+	</tr>
+</table>
+
+					<div class="list_style">
+						<ul class="box_list">
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　シャドー・ミスト</span>
+										<span class="card_status">
+										<strong>E・HERO シャドー・ミスト</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_sr.png" class="icon_info rid_3 rarity_lang_ja" alt="スーパーレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1000</span>
+										
+										
+											<span class="def_power">守備力 1500</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカード名の①②の効果は１ターンに１度、いずれか１つしか使用できない。①：このカードが特殊召喚に成功した場合に発動できる。デッキから「チェンジ」速攻魔法カード１枚を手札に加える。②：このカードが墓地へ送られた場合に発動できる。デッキから「E・HERO シャドー・ミスト」以外の「HERO」モンスター１体を手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_0_1" alt="E・HERO シャドー・ミスト" title="E・HERO シャドー・ミスト" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=11308">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　エアーマン</span>
+										<span class="card_status">
+										<strong>E・HERO エアーマン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1800</span>
+										
+										
+											<span class="def_power">守備力 300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードが召喚・特殊召喚に成功した時、以下の効果から１つを選択して発動できる。●このカード以外の自分フィールドの「HERO」モンスターの数まで、フィールドの魔法・罠カードを選んで破壊する。●デッキから「HERO」モンスター１体を手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_1_1" alt="E・HERO エアーマン" title="E・HERO エアーマン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6784">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　オーシャン</span>
+										<span class="card_status">
+										<strong>E・HERO オーシャン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_water.png" alt="水属性" title="水属性">
+											<span>水属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1500</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：１ターンに１度、自分スタンバイフェイズに自分のフィールド・墓地の「HERO」モンスター１体を対象として発動できる。その自分の「HERO」モンスターを持ち主の手札に戻す。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_2_1" alt="E・HERO オーシャン" title="E・HERO オーシャン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6733">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　フォレストマン</span>
+										<span class="card_status">
+										<strong>E・HERO フォレストマン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1000</span>
+										
+										
+											<span class="def_power">守備力 2000</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：１ターンに１度、自分スタンバイフェイズに発動できる。自分のデッキ・墓地から「融合」１枚を選んで手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_3_1" alt="E・HERO フォレストマン" title="E・HERO フォレストマン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6728">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　ボルテック</span>
+										<span class="card_status">
+										<strong>E・HERO ボルテック</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											雷族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1000</span>
+										
+										
+											<span class="def_power">守備力 1500</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードが相手に戦闘ダメージを与えた時、除外されている自分の「E・HERO」モンスター１体を対象として発動できる。そのモンスターを特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_4_1" alt="E・HERO ボルテック" title="E・HERO ボルテック" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=7058">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　ザ・ヒート</span>
+										<span class="card_status">
+										<strong>E・HERO ザ・ヒート</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_fire.png" alt="炎属性" title="炎属性">
+											<span>炎属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											炎族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1600</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードの攻撃力は、自分フィールドの「E・HERO」モンスターの数×２００アップする。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_5_1" alt="E・HERO ザ・ヒート" title="E・HERO ザ・ヒート" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6927">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　ネオス</span>
+										<span class="card_status">
+										<strong>E・HERO ネオス</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 7</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											通常
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 2500</span>
+										
+										
+											<span class="def_power">守備力 2000</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										ネオスペースからやってきた新たなるE・HERO。ネオスペーシアンとコンタクト融合する事で、未知なる力を発揮する！
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_6_1" alt="E・HERO ネオス" title="E・HERO ネオス" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6653">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　アナザー・ネオス</span>
+										<span class="card_status">
+										<strong>E・HERO アナザー・ネオス</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											デュアル
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1900</span>
+										
+										
+											<span class="def_power">守備力 1300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードはフィールド・墓地に存在する限り、通常モンスターとして扱う。②：フィールドの通常モンスター扱いのこのカードを通常召喚としてもう１度召喚できる。その場合このカードは効果モンスター扱いとなり以下の効果を得る。<br>●このカードはモンスターゾーンに存在する限り、カード名を「E・HERO ネオス」として扱う。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_7_1" alt="E・HERO アナザー・ネオス" title="E・HERO アナザー・ネオス" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=7195">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　エッジマン</span>
+										<span class="card_status">
+										<strong>E・HERO エッジマン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 7</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 2600</span>
+										
+										
+											<span class="def_power">守備力 1800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードが守備表示モンスターを攻撃した場合、その守備力を攻撃力が超えた分だけ戦闘ダメージを与える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_8_1" alt="E・HERO エッジマン" title="E・HERO エッジマン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6477">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　ネクロダークマン</span>
+										<span class="card_status">
+										<strong>E・HERO ネクロダークマン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 5</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1600</span>
+										
+										
+											<span class="def_power">守備力 1800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードが墓地に存在する限り１度だけ、自分はレベル５以上の「E・HERO」モンスター１体をリリースなしで召喚できる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_9_1" alt="E・HERO ネクロダークマン" title="E・HERO ネクロダークマン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6527">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　ワイルドマン</span>
+										<span class="card_status">
+										<strong>E・HERO ワイルドマン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1500</span>
+										
+										
+											<span class="def_power">守備力 1600</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードはモンスターゾーンに存在する限り、罠カードの効果を受けない。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_10_1" alt="E・HERO ワイルドマン" title="E・HERO ワイルドマン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6478">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　バブルマン</span>
+										<span class="card_status">
+										<strong>E・HERO バブルマン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_water.png" alt="水属性" title="水属性">
+											<span>水属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 800</span>
+										
+										
+											<span class="def_power">守備力 1200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：手札がこのカード１枚のみの場合、このカードは手札から特殊召喚できる。②：このカードが召喚・反転召喚・特殊召喚に成功した時に発動できる。自分はデッキから２枚ドローする。この効果は自分の手札・フィールドに他のカードが無い場合に発動と処理ができる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_11_1" alt="E・HERO バブルマン" title="E・HERO バブルマン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6393">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ネオスペーシアン・グラン・モール</span>
+										<span class="card_status">
+										<strong>N・グラン・モール</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											岩石族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 900</span>
+										
+										
+											<span class="def_power">守備力 300</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードが相手モンスターと戦闘を行うダメージステップ開始時に発動できる。その相手モンスターとこのカードを持ち主の手札に戻す。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_12_1" alt="N・グラン・モール" title="N・グラン・モール" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6770">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>オネスト</span>
+										<span class="card_status">
+										<strong>オネスト</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											天使族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 1100</span>
+										
+										
+											<span class="def_power">守備力 1900</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分メインフェイズに発動できる。フィールドの表側表示のこのカードを持ち主の手札に戻す。②：自分の光属性モンスターが戦闘を行うダメージステップ開始時からダメージ計算前までに、このカードを手札から墓地へ送って発動できる。そのモンスターの攻撃力はターン終了時まで、戦闘を行う相手モンスターの攻撃力分アップする。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_13_1" alt="オネスト" title="オネスト" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=7574">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>カードガンナー</span>
+										<span class="card_status">
+										<strong>カードガンナー</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 3</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											機械族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 400</span>
+										
+										
+											<span class="def_power">守備力 400</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：１ターンに１度、自分のデッキの上からカードを３枚まで墓地へ送って発動できる。このカードの攻撃力はターン終了時まで、この効果を発動するために墓地へ送ったカードの数×５００アップする。②：自分フィールドのこのカードが破壊され墓地へ送られた場合に発動する。自分はデッキから１枚ドローする。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_14_1" alt="カードガンナー" title="カードガンナー" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6939">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ハネクリボー</span>
+										<span class="card_status">
+										<strong>ハネクリボー</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 1</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											天使族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 300</span>
+										
+										
+											<span class="def_power">守備力 200</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：フィールドのこのカードが破壊され墓地へ送られた場合に発動する。このターン、自分が受ける戦闘ダメージは０になる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_15_1" alt="ハネクリボー" title="ハネクリボー" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6314">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>しょうかんそうサモンプリースト</span>
+										<span class="card_status">
+										<strong>召喚僧サモンプリースト</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 4</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											魔法使い族
+			
+											／
+											効果
+			
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 800</span>
+										
+										
+											<span class="def_power">守備力 1600</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：このカードが召喚・反転召喚に成功した場合に発動する。このカードを守備表示にする。②：このカードがモンスターゾーンに存在する限り、このカードはリリースできない。③：１ターンに１度、手札から魔法カード１枚を捨てて発動できる。デッキからレベル４モンスター１体を特殊召喚する。この効果で特殊召喚したモンスターはこのターン攻撃できない。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_16_1" alt="召喚僧サモンプリースト" title="召喚僧サモンプリースト" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6400">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>マスク・チェンジ・セカンド</span>
+										<span class="card_status">
+										<strong>マスク・チェンジ・セカンド</strong>
+		
+			
+		
+		
+											<span class="f_right">
+												<img src="external/image/parts/forbidden_limited/icon_limited.png" alt="制限" class="icon_info fl_2">
+											</span>
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+										<span class="box_card_effect">
+											<img class="icon_img" src="external/image/parts/effect/effect_icon_quickplay.png" alt="速攻" title="速攻">
+											<span>速攻</span>
+										</span>
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										「マスク・チェンジ・セカンド」は１ターンに１枚しか発動できない。①：手札を１枚捨て、自分フィールドの表側表示モンスター１体を対象として発動できる。そのモンスターを墓地へ送り、そのモンスターよりレベルが高く同じ属性の「M・HERO」モンスター１体を、「マスク・チェンジ」による特殊召喚扱いとしてエクストラデッキから特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_17_1" alt="マスク・チェンジ・セカンド" title="マスク・チェンジ・セカンド" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=9271">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>フォーム・チェンジ</span>
+										<span class="card_status">
+										<strong>フォーム・チェンジ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+										<span class="box_card_effect">
+											<img class="icon_img" src="external/image/parts/effect/effect_icon_quickplay.png" alt="速攻" title="速攻">
+											<span>速攻</span>
+										</span>
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分フィールドの「HERO」融合モンスター１体を対象として発動できる。そのモンスターをエクストラデッキへ戻し、そのモンスターの元々のレベルと同じレベルでカード名が異なる「M・HERO」モンスター１体を、「マスク・チェンジ」による特殊召喚扱いとしてエクストラデッキから特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_18_1" alt="フォーム・チェンジ" title="フォーム・チェンジ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=9068">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>マスク・チャージ</span>
+										<span class="card_status">
+										<strong>マスク・チャージ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分の墓地の、「HERO」モンスター１体と「チェンジ」速攻魔法カード１枚を対象として発動できる。そのカードを手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_19_1" alt="マスク・チャージ" title="マスク・チャージ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=11309">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>マスク・チェンジ</span>
+										<span class="card_status">
+										<strong>マスク・チェンジ</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+										<span class="box_card_effect">
+											<img class="icon_img" src="external/image/parts/effect/effect_icon_quickplay.png" alt="速攻" title="速攻">
+											<span>速攻</span>
+										</span>
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分フィールドの「HERO」モンスター１体を対象として発動できる。そのモンスターを墓地へ送り、そのモンスターと同じ属性の「M・HERO」モンスター１体をエクストラデッキから特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_20_1" alt="マスク・チェンジ" title="マスク・チェンジ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=9066">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ゆうごう</span>
+										<span class="card_status">
+										<strong>融合</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分の手札・フィールドから、融合モンスターカードによって決められた融合素材モンスターを墓地へ送り、その融合モンスター１体をEXデッキから融合召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_21_1" alt="融合" title="融合" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4837">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ミラクル・フュージョン</span>
+										<span class="card_status">
+										<strong>ミラクル・フュージョン</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分のフィールド・墓地から、「E・HERO」融合モンスターカードによって決められた融合素材モンスターを除外し、その融合モンスター１体をEXデッキから融合召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_22_1" alt="ミラクル・フュージョン" title="ミラクル・フュージョン" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6432">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>パラレル・ワールド・フュージョン</span>
+										<span class="card_status">
+										<strong>平行世界融合</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカードを発動するターン、自分はこのカードの効果以外ではモンスターを特殊召喚できない。①：除外されている、「E・HERO」融合モンスターカードによって決められた自分の融合素材モンスターをデッキに戻し、その融合モンスター１体をエクストラデッキから融合召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_23_1" alt="平行世界融合" title="平行世界融合" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=7942">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ヒーローアライブ</span>
+										<span class="card_status">
+										<strong>ヒーローアライブ</strong>
+		
+			
+		
+		
+											<span class="f_right">
+												<img src="external/image/parts/forbidden_limited/icon_semilimited.png" alt="準制限" class="icon_info fl_3">
+											</span>
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分フィールドに表側表示モンスターが存在しない場合、LPを半分払って発動できる。デッキからレベル４以下の「E・HERO」モンスター１体を特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_24_1" alt="ヒーローアライブ" title="ヒーローアライブ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=7187">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ヒーロー・マスク</span>
+										<span class="card_status">
+										<strong>ヒーロー・マスク</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分フィールドの表側表示モンスター１体を対象として発動できる。デッキから「E・HERO」モンスター１体を墓地へ送り、対象の自分の表側表示モンスターはエンドフェイズまで、この効果で墓地へ送ったモンスターと同名カードとして扱う。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_25_1" alt="ヒーロー・マスク" title="ヒーロー・マスク" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=7618">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エイチ－ヒートハート</span>
+										<span class="card_status">
+										<strong>H－ヒートハート</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分フィールドの表側表示モンスター１体を対象として発動できる。そのモンスターの攻撃力はターン終了時まで５００アップし、このターンそのモンスターが守備表示モンスターを攻撃した場合、その守備力を攻撃力が超えた分だけ相手に戦闘ダメージを与える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_26_1" alt="H－ヒートハート" title="H－ヒートハート" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6671">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>イー－エマージェンシーコール</span>
+										<span class="card_status">
+										<strong>E－エマージェンシーコール</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：デッキから「E・HERO」モンスター１体を手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_27_1" alt="E－エマージェンシーコール" title="E－エマージェンシーコール" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6672">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>アール－ライトジャスティス</span>
+										<span class="card_status">
+										<strong>R－ライトジャスティス</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分フィールドの「E・HERO」カードの数だけ、フィールドの魔法・罠カードを選んで破壊する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_28_1" alt="R－ライトジャスティス" title="R－ライトジャスティス" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6673">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>オー－オーバーソウル</span>
+										<span class="card_status">
+										<strong>O－オーバーソウル</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分の墓地の「E・HERO」通常モンスター１体を対象として発動できる。そのモンスターを特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_29_1" alt="O－オーバーソウル" title="O－オーバーソウル" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6674">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ぞうえん</span>
+										<span class="card_status">
+										<strong>増援</strong>
+		
+			
+		
+		
+											<span class="f_right">
+												<img src="external/image/parts/forbidden_limited/icon_limited.png" alt="制限" class="icon_info fl_2">
+											</span>
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：デッキからレベル４以下の戦士族モンスター１体を手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_30_1" alt="増援" title="増援" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=5328">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>せんしのせいかん</span>
+										<span class="card_status">
+										<strong>戦士の生還</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分の墓地の戦士族モンスター１体を対象として発動できる。その戦士族モンスターを手札に加える。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_31_1" alt="戦士の生還" title="戦士の生還" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=5330">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ごうよくでけんきょなつぼ</span>
+										<span class="card_status">
+										<strong>強欲で謙虚な壺</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカード名のカードは１ターンに１枚しか発動できず、このカードを発動するターン、自分はモンスターを特殊召喚できない。①：自分のデッキの上からカードを３枚めくり、その中から１枚を選んで手札に加え、その後残りのカードをデッキに戻す。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_32_1" alt="強欲で謙虚な壺" title="強欲で謙虚な壺" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=8993">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>おろかなまいそう</span>
+										<span class="card_status">
+										<strong>おろかな埋葬</strong>
+		
+			
+		
+		
+											<span class="f_right">
+												<img src="external/image/parts/forbidden_limited/icon_limited.png" alt="制限" class="icon_info fl_2">
+											</span>
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_spell.png" alt="魔法" title="魔法">
+											<span>魔法</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：デッキからモンスター１体を墓地へ送る。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_33_1" alt="おろかな埋葬" title="おろかな埋葬" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=5236">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ヒーロー・シグナル</span>
+										<span class="card_status">
+										<strong>ヒーロー・シグナル</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_trap.png" alt="罠" title="罠">
+											<span>罠</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分フィールドのモンスターが戦闘で破壊され墓地へ送られた時に発動できる。手札・デッキからレベル４以下の「E・HERO」モンスター１体を特殊召喚する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_34_1" alt="ヒーロー・シグナル" title="ヒーロー・シグナル" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=6356">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ヒーロー・ブラスト</span>
+										<span class="card_status">
+										<strong>ヒーロー・ブラスト</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_trap.png" alt="罠" title="罠">
+											<span>罠</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分の墓地の「E・HERO」通常モンスター１体を対象として発動できる。そのモンスターを手札に加える。その後、手札に加えたモンスターの攻撃力以下の攻撃力を持つ相手フィールドのモンスター１体を選んで破壊する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_35_1" alt="ヒーロー・ブラスト" title="ヒーロー・ブラスト" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=7637">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>リビングデッドのよびごえ</span>
+										<span class="card_status">
+										<strong>リビングデッドの呼び声</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_trap.png" alt="罠" title="罠">
+											<span>罠</span>
+										</span>
+		
+		
+										<span class="box_card_effect">
+											<img class="icon_img" src="external/image/parts/effect/effect_icon_continuous.png" alt="永続" title="永続">
+											<span>永続</span>
+										</span>
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：自分の墓地のモンスター１体を対象としてこのカードを発動できる。そのモンスターを攻撃表示で特殊召喚する。このカードがフィールドから離れた時にそのモンスターは破壊される。そのモンスターが破壊された時にこのカードは破壊される。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_36_1" alt="リビングデッドの呼び声" title="リビングデッドの呼び声" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=4989">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>ならくのおとしあな</span>
+										<span class="card_status">
+										<strong>奈落の落とし穴</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_trap.png" alt="罠" title="罠">
+											<span>罠</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：相手が攻撃力１５００以上のモンスターを召喚・反転召喚・特殊召喚した時に発動できる。その攻撃力１５００以上のモンスターを破壊し除外する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_37_1" alt="奈落の落とし穴" title="奈落の落とし穴" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=5400">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>きょうせいだっしゅつそうち</span>
+										<span class="card_status">
+										<strong>強制脱出装置</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_trap.png" alt="罠" title="罠">
+											<span>罠</span>
+										</span>
+		
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：フィールドのモンスター１体を対象として発動できる。そのモンスターを持ち主の手札に戻す。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_38_1" alt="強制脱出装置" title="強制脱出装置" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=5914">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>かみのけいこく</span>
+										<span class="card_status">
+										<strong>神の警告</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_trap.png" alt="罠" title="罠">
+											<span>罠</span>
+										</span>
+		
+		
+										<span class="box_card_effect">
+											<img class="icon_img" src="external/image/parts/effect/effect_icon_counter.png" alt="カウンター" title="カウンター">
+											<span>カウンター</span>
+										</span>
+		
+		
+		
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										①：２０００LPを払って以下の効果を発動できる。<br>●モンスターを特殊召喚する効果を含む、モンスターの効果・魔法・罠カードが発動した時に発動できる。その発動を無効にし破壊する。<br>●自分または相手がモンスターを召喚・反転召喚・特殊召喚する際に発動できる。それを無効にし、そのモンスターを破壊する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_39_1" alt="神の警告" title="神の警告" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=9008">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>コントラストヒーロー　カオス</span>
+										<span class="card_status">
+										<strong>C・HERO カオス</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_ur.png" class="icon_info rid_4 rarity_lang_ja" alt="ウルトラレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 9</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											融合
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 3000</span>
+										
+										
+											<span class="def_power">守備力 2600</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										「M・HERO」モンスター×２<br>このカードはルール上「E・HERO」モンスターとしても扱う。このカードは融合召喚でしか特殊召喚できない。①：このカードがモンスターゾーンに存在する限り、このカードの属性は「光」としても扱う。②：１ターンに１度、フィールドの表側表示のカード１枚を対象として発動できる。そのカードの効果をターン終了時まで無効にする。この効果は相手ターンでも発動できる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_40_1" alt="C・HERO カオス" title="C・HERO カオス" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=11310">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>マスクドヒーロー　こうが</span>
+										<span class="card_status">
+										<strong>M・HERO 光牙</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_sr.png" class="icon_info rid_3 rarity_lang_ja" alt="スーパーレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_light.png" alt="光属性" title="光属性">
+											<span>光属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 8</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											融合
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 2500</span>
+										
+										
+											<span class="def_power">守備力 1800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカードは「マスク・チェンジ」の効果でのみ特殊召喚できる。①：このカードの攻撃力は相手フィールドのモンスターの数×５００アップする。②：１ターンに１度、自分の墓地の「HERO」モンスター１体を除外し、フィールドの表側表示モンスター１体を対象として発動できる。そのモンスターの攻撃力はターン終了時まで、この効果を発動するために除外したモンスターの攻撃力分ダウンする。この効果は相手ターンでも発動できる。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_41_1" alt="M・HERO 光牙" title="M・HERO 光牙" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=11311">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>マスクドヒーロー　カミカゼ</span>
+										<span class="card_status">
+										<strong>M・HERO カミカゼ</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_sr.png" class="icon_info rid_3 rarity_lang_ja" alt="スーパーレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_wind.png" alt="風属性" title="風属性">
+											<span>風属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 8</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											融合
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 2700</span>
+										
+										
+											<span class="def_power">守備力 1900</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカードは「マスク・チェンジ」の効果でのみ特殊召喚できる。①：このカードは戦闘では破壊されない。②：このカードがモンスターゾーンに存在する限り、相手はバトルフェイズにモンスター１体でしか攻撃できない。③：このカードが戦闘で相手モンスターを破壊し墓地へ送った時に発動できる。自分はデッキから１枚ドローする。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_42_1" alt="M・HERO カミカゼ" title="M・HERO カミカゼ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=11312">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>マスクドヒーロー　ダーク・ロウ</span>
+										<span class="card_status">
+										<strong>M・HERO ダーク・ロウ</strong>
+		
+			
+											<span class="f_right">
+												<img src="external/image/parts/rarity/icon_sr.png" class="icon_info rid_3 rarity_lang_ja" alt="スーパーレア仕様" style="padding-left: 10px;">
+											</span>
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_dark.png" alt="闇属性" title="闇属性">
+											<span>闇属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 6</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											融合
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 2400</span>
+										
+										
+											<span class="def_power">守備力 1800</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										このカードは「マスク・チェンジ」の効果でのみ特殊召喚できる。①：このカードがモンスターゾーンに存在する限り、相手の墓地へ送られるカードは墓地へは行かず除外される。②：１ターンに１度、相手がドローフェイズ以外でデッキからカードを手札に加えた場合に発動できる。相手の手札をランダムに１枚選んで除外する。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_43_1" alt="M・HERO ダーク・ロウ" title="M・HERO ダーク・ロウ" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=11313">
+							</li>
+	
+							<li>
+								<dl>
+									<dt class="box_card_name">
+										<span>エレメンタルヒーロー　ガイア</span>
+										<span class="card_status">
+										<strong>E・HERO ガイア</strong>
+		
+			
+		
+		
+										</span>
+									</dt>
+									<dd class="box_card_spec">
+		
+										<span class="box_card_attribute">
+											<img class="icon_img" src="external/image/parts/attribute/attribute_icon_earth.png" alt="地属性" title="地属性">
+											<span>地属性</span>
+										</span>
+		
+		
+		
+		
+			
+			
+										<span class="box_card_level_rank level">
+											<img class="icon_img" src="external/image/parts/icon_level.png" alt="レベル" title="レベル">
+											<span>レベル 6</span>
+										</span>
+			
+		
+		
+										<span class="card_info_species_and_other_item">
+											【
+											戦士族
+			
+											／
+											融合
+			
+			
+											／
+											効果
+			
+			
+											】
+										</span>
+										<span class="atk_power">攻撃力 2200</span>
+										
+										
+											<span class="def_power">守備力 2600</span>
+										
+		
+		
+										<span class="blank">&nbsp;</span>
+		
+									</dd>
+		
+									<dd class="box_card_text">
+		
+										「E・HERO」モンスター＋地属性モンスター<br>このカードは融合召喚でしか特殊召喚できない。①：このカードが融合召喚に成功した場合、相手フィールドの表側表示モンスター１体を対象として発動する。ターン終了時まで、そのモンスターの攻撃力を半分にし、このカードの攻撃力はその数値分アップする。
+		
+									</dd>
+									<dd class="box_card_img">
+		
+		
+										<img id="card_image_44_1" alt="E・HERO ガイア" title="E・HERO ガイア" class="none">
+		
+									</dd>
+								</dl>
+								<input type="hidden" class="link_value" value="/yugiohdb/card_search.action?ope=2&cid=8122">
+							</li>
+	
+						</ul><!--.box_list-->
+					</div><!--.list_style-->
+
+
+				</td>
+				</tr>
+			</table>
+
+		</div><!--#article_body-->
+	</article>
+
+<input type="hidden" name="sv" value="ycdb-prdap01.gs-ec2">
+
+
+
+
+
+
+	<div id="cdb_link_set"><a class="link_ocg" href="//www.yugioh-card.com/japan/" target="_blank">遊戯王公式サイト</a>  <a class="link_cgn" href="//cardgame-network.konami.net/" target="_blank">KONAMI CARD GAME NETWORK</a>  <a class="link_kst" href="http://www.konamistyle.jp/" target="_blank">コナミスタイル</a>  <a class="link_kfs" href="https://www.konami.com/games/card/friendly_shop/" target="_blank">コナミ フレンドリーショップ</a></div>
+
+	<footer id="footer">
+		<div id="content_copyright">&copy;高橋和希 スタジオ・ダイス/集英社 企画・制作/KONAMI</div>
+		<div id="footer_meta">
+			<nav>
+				<ul>
+					<li><a href="http://www.yugioh-card.com/japan/support/" target="_blank">お問い合わせ</a></li><!--
+				 --><li>|</li><!--
+				 --><li><a href="https://www.konami.com/siteinfo/ja/" target="_blank">サイトポリシー</a></li><!--
+				 --><li>|</li><!--
+				 --><li><a href="https://legal.konami.com/games/privacy/ja/" target="_blank">個人情報等保護方針</a></li><!--
+				 --><li>|</li><!--
+				 --><li></li>
+				</ul>
+			</nav>
+			<small>&copy;2020 Konami Digital Entertainment</small>
+		</div>
+	</footer>
+</div><!--wrapper-->
+<noscript>JavaScript を有効にしてください</noscript>
+
+</body>
+</html>
+

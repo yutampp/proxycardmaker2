@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta name="viewport" content="width=450,initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/jspdf.debug.js"></script>
+<script>
+var grand_promise = [];
+if( location.search!=="" ){
+  var para = location.search;
+  para = para.slice(1);
+  console.log(para);
+  var send_data = {"search_string":para};
+  $.post( "/search_pack.php", send_data, get_card_image, "json");
+}else{
+  $.get("/packs/summary",(data)=>
+  {
+    data = JSON.parse(data);
+    var url = location.href + "?";
+    var ul = $("<ul>").appendTo("#board");
+    for(let key in data){
+      var li = $("<li><a>"+data[key]+"</a></li>");
+      li.find("a").attr("href", url+key);
+      //li.appendTo(ul);
+      console.log(key);
+    }
+  });
+}
+function search(){
+  search_string =  $("[name=search_string]").val();
+  if(search_string=="") search_string = "100";
+  var send_data = {"search_string": search_string};
+
+  $.post( "/search_cid.php", send_data, get_card_image, "json");
+}
+function get_card_image(data){
+  console.log(data);
+  //data = {index :[ cid, card_name, search_string, pack, attr ], }
+  var result = [];
+  var conflict = {};
+  for(let key in data){
+    if(conflict[data[key][0]] == true){
+      continue;
+    }
+    conflict[data[key][0]] = true;
+    result.push(data[key]);
+  }
+  console.log(result);
+  $("#board").html("");
+  var cids = result.map((v)=>{
+    var img = $("<img>");
+    img.attr("src","images/"+v[0]+".png");
+    img.attr("width","200px");
+    img.attr("height","290px");
+    img.attr("id","cid_"+v[0]);
+    img.attr("cid",v[0]);
+    img.css("padding","0");
+    img.appendTo("#board");
+    img.on("click",card_click_event);
+    return v[0];
+  });
+  var send_data = {"cids": JSON.stringify(cids)};
+  $.post( "/search_card_detail.php", send_data, get_card_detail, "json");
+};
+
+function get_card_detail(data){
+  console.log(data);
+  var result = [];
+  var conflict = {};
+  for(let key in data){
+    if(conflict[data[key][0]] == true){
+      continue;
+    }
+    conflict[data[key][0]] = true;
+    result.push(data[key]);
+  }
+  console.log(result);
+  result.map((v)=>{
+    var img = $("#cid_"+v[0]);
+    var parser = new DOMParser();
+    var detail_doc = parser.parseFromString(v[1], "text/html");
+    console.log(detail_doc);
+    var text = detail_doc.querySelector(".box_card_text").innerText;
+    var pen_effect = detail_doc.querySelector(".box_card_pen_effect");
+    if(pen_effect !== null){
+      text = pen_effect.innerText + "\n---------\n" + text;
+    }
+    img.attr("title",text);
+  });
+};
+function card_click_event(){
+  var img = $(this).clone();
+  var cid = $(this).attr("cid");
+  var para = {cid: cid};
+  img.appendTo("#print_board");
+  img.on("click",card_click_event_r);
+  var promise = new Promise((resolve)=>{
+    $.get("/get_b64_image.php", para, data=>resolve(JSON.parse(data)) );
+  });
+  grand_promise.push(promise);
+}
+function card_click_event_r(){
+  $(this).appendTo("#board");
+}
+function print_pdf(card_images){
+  console.log(card_images);
+  var doc = new jsPDF("p","mm","a4");
+  for( var i=0; i < card_images.length; i++){
+    if( i !== 0 && i % 9 == 0 ) doc.addPage('a4', 'p');
+    var img = "data:image/png;base64," + card_images[i];
+    doc.addImage(img, 'PNG', 16 + (59 * (i % 3) ),
+                 20 + ( 86 * Math.floor( i % 9 / 3) ), 59, 86);
+  }
+  var bloburi = doc.output("bloburi",{"filename":"output.pdf"});
+  $("<a>").attr("href",bloburi).attr("download","output.pdf")[0].click();
+}
+function get_pdf(){
+  var cids =[];
+  $("#message").text("Please Wait...");
+  $("#print_board > img").each((i,v)=>{
+    var cid = $(v).attr("cid");
+    cids.push(cid);
+  });
+  Promise.all(grand_promise).then(datas=>{
+    console.log(datas);
+    $("#message").text("");
+    var card_data = {}
+    datas.map(v=>card_data[v["cid"]]=v["png_b64"]);
+    console.log(card_data);
+    console.log(cids);
+    var card_images = cids.map(v=>card_data[v]);
+    print_pdf(card_images);
+  });
+}
+</script>
+</head>
+<body>
+<input type="text" name="search_string">
+<button onClick="search();">nnn</button>
+<button onClick="$('#board').toggle();">toggle</button>
+<button onClick="get_pdf();">get</button>
+<button onClick="all_select();">all</button>
+<span id="message"></span>
+<hr>
+<div id="board" style="text-align:center"></div>
+<hr>
+<div id="print_board"></div>
+</body>
+</html>
